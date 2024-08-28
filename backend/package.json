@@ -1,0 +1,17 @@
+{
+  "name": "signaling-server",
+  "version": "0.0.1",
+  "description": "Signaling server for an End to End encrypted chat application. Utilized on peer to peer communications.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "nodemon src/main.ts"
+  },
+  "author": "surafel fikru",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
