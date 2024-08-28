@@ -1,6 +1,8 @@
 <script>
-  import "../app.css";
+	import '../app.css';
 </script>
 
-<h1>Root Layout</h1>
-<slot/>
+
+<section class="h-screen w-full max-w-3xl min-w-[300px] overflow-x-scroll">
+	<slot/>
+</section>
