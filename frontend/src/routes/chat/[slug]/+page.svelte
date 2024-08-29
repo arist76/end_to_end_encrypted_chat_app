@@ -27,7 +27,7 @@
 		peer.on('open', (peerId) => {
 			console.log('My peer ID is ' + peerId);
 
-			if (id === '1') {
+			if (id !== '0') {
 				connectToPeer('0');
 			}
 		});
