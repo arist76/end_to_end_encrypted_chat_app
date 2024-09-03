@@ -16,7 +16,6 @@ interface Person {
 	name: string;
 }
 
-
 export function getInitials(name: string) {
 	return name
 		.split(' ')
